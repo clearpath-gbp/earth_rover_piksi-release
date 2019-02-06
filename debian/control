@@ -1,0 +1,12 @@
+Source: ros-kinetic-earth-rover-piksi
+Section: misc
+Priority: extra
+Maintainer: Andres Palomino <andres@earthrover.cc>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-earth-rover-piksi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-piksi-multi-rtk, ros-kinetic-piksi-rtk-msgs
+Description: Meta-package for the earth_rover_piksi repository.
