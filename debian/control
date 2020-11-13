@@ -1,0 +1,12 @@
+Source: ros-melodic-earth-rover-piksi
+Section: misc
+Priority: optional
+Maintainer: Andres Palomino <andres@earthrover.cc>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://wiki.ros.org/earth_rover_piksi
+Standards-Version: 3.9.2
+
+Package: ros-melodic-earth-rover-piksi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-piksi-multi-rtk, ros-melodic-piksi-rtk-msgs
+Description: Meta-package for the earth_rover_piksi repository.
