@@ -1,3 +1,29 @@
+## earth_rover_piksi (melodic) - 1.8.2-1
+
+The packages in the `earth_rover_piksi` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic earth_rover_piksi --new-track` on `Fri, 13 Nov 2020 17:03:27 -0000`
+
+These packages were released:
+- `earth_rover_piksi`
+- `piksi_multi_rtk`
+- `piksi_rtk_msgs`
+
+Version of package(s) in repository `earth_rover_piksi`:
+
+- upstream repository: https://github.com/earthrover/earth_rover_piksi.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.8.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## earth_rover_piksi (kinetic) - 1.8.2-1
 
 The packages in the `earth_rover_piksi` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release earth_rover_piksi --rosdistro kinetic` on `Fri, 08 Feb 2019 11:49:28 -0000`
